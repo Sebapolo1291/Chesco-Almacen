@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/estilos.css">
+    <title>2 ENTREGA FINAL</title>
+</head>
+<header>
+    <!-- iNICIO DE LA NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+
+        <a class="navbar-brand" href="#"><img src="/img/Logo_header-removebg-preview.png" alt="logo  granos"></a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./dietetica.html">Dietetica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./golosineria.html">Golosineria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./medicinal.html">Medicinal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <section>
+        <div class="nosotros-jumbotron">
+            <h2>Nosotros</h2>
+            <p>Chesco es una empresa familiar dedicada a hacer llegar a nuestros clientes los mejores productos naturales y funcionales, con la convicción de que una vida más saludable y amigable con el medio ambiente es siempre posible.
+                Con nuestra primer negocio ubicado en la zona mas tranquila de Villa Urquiza, en poco tiempo Chesco se hizo querer.
+                Trabajamos incansablemente para brindar la mejor atención personalizada y la más alta calidad en nuestros productos.
+                Queremos llegar a todas las personas por eso surgio la idea de crear nuestra tienda virtual donde podrán estar en contacto permanente con nosotros.
+                Estamos con ganas y con mucha motivacion, es un largo camino que nos encantaria que formes parte.
+                
+            </p>
+        </div>
+
+    </section>
+    <div class="contact_form">
+
+        <div class="formulario">
+            <h4>Formulario de contacto</h4>
+            <h5>Escribinos y en breve nos pondremos en contacto con vos</h5>
+
+
+            <form action="submeter-formulario.php" method="post">
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+
+                <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Dejanos acá tu comentario..."></textarea>
+                </p>
+
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+
+                </button>
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>
+
+            </form>
+        </div>
+    </div>
+    <section>
+        <div>
+            <div class="subir">
+                <a href="#" class="fa-solid fa-circle-chevron-up"></a>
+            </div>
+    </section>
+</main>
+
+<footer>
+    <h6>© Almacén Chesco, todos los derechos reservados. 2022.</h6>
+    <div class="redes">
+        <a href=""></a> <i class="fa-brands fa-facebook"></i>
+        <a href=""></a> <i class="fa-brands fa-instagram"></i>
+        <a href=""></a> <i class="fa-brands fa-whatsapp"></i>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
