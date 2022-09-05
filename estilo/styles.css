@@ -5,7 +5,7 @@
 }
 /*MOBILE*/
 .img-hero {
-    background-image: url(img/Group38.png);
+    background-image: url(../img/Group38.png);
     background-size: cover;
     background-position: center;
     border-radius: 0;
@@ -118,6 +118,14 @@ h3{
     font-family: 'DM Sans', sans-serif;
     margin-bottom: 20px;
     width: 100%;
+    text-decoration: none;
+}
+
+.btn-info-vermas:hover{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+
 }
 
 .contacto-container-fluid{
@@ -147,6 +155,19 @@ footer{
 }
 
 
+.dietetica-container{
+    text-align: center;
+    
+}
+
+
+.dietetica-container p{
+    border-top: 2px solid black;
+    margin: 1rem;
+    padding-top: 1rem;
+
+
+}
 @media screen and (min-width: 598px) {
     .section1 {
         display: flex;
@@ -217,5 +238,13 @@ footer{
     .card-img-top {
         width: 100%;
     }
-}  
-
+    .carousel-inner{
+    height: 50vh;
+   }
+   .dietetica-container p{
+    margin: 2rem 10rem;
+}
+    .dietetica-container{
+        margin-top: 5rem;
+    }
+}
