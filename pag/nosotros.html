@@ -10,8 +10,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <link rel="stylesheet" href="../estilo/styles.css">
-    <title>Chesco Contacto</title>
+    <link rel="stylesheet" href="../estilo/styles.css">
+    <title>Chesco Contactogit </title>
 </head>
 <header>
     <!-- iNICIO DE LA NAVBAR  ACA TENDRIA QUE METER UN HEADER?-->
@@ -42,28 +42,25 @@
             </ul>
         </div>
     </nav>
-</header> 
+</header>
 <main>
+    <!-- section inicia -->
     <section>
-        <div class="nosotros-jumbotron">
-            <h2>Nosotros</h2>
-            <p>Chesco es una empresa familiar dedicada a hacer llegar a nuestros clientes los mejores productos naturales y funcionales, con la convicción de que una vida más saludable y amigable con el medio ambiente es siempre posible.
-                Con nuestra primer negocio ubicado en la zona mas tranquila de Villa Urquiza, en poco tiempo Chesco se hizo querer.
-                Trabajamos incansablemente para brindar la mejor atención personalizada y la más alta calidad en nuestros productos.
-                Queremos llegar a todas las personas por eso surgio la idea de crear nuestra tienda virtual donde podrán estar en contacto permanente con nosotros.
-                Estamos con ganas y con mucha motivacion, es un largo camino que nos encantaria que formes parte.
-                
+        <div class="container-fluid nosotros">
+            <h1>Nosotros</h1>
+            <p>Chesco aún no cumplió su primer año desde que abrio sus puertas, el camino fue largo pero no imposible,
+                dia a dia con amor por nuestros vecinos nos esforzamos para mejorar y acercarle los mejores productos
+                naturales de elaboracion artesanal.
+            
             </p>
         </div>
-
     </section>
+
     <div class="contact_form">
 
         <div class="formulario">
-            <h4>Formulario de contacto</h4>
-            <h5>Escribinos y en breve nos pondremos en contacto con vos</h5>
-
-
+            <h2>Formulario de contacto</h2>
+            <p>¿Estas buscando un producto en particular y no lo encontrás? Escribinos y en breve nos pondremos en contacto con vos</p>
             <form action="submeter-formulario.php" method="post">
                 <p>
                     <label for="nombre" class="colocar_nombre">Nombre
@@ -72,7 +69,6 @@
                     <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
                         placeholder="Escribe tu nombre">
                 </p>
-
                 <p>
                     <label for="email" class="colocar_email">Email
                         <span class="obligatorio">*</span>
@@ -80,13 +76,11 @@
                     <input type="email" name="introducir_email" id="email" required="obligatorio"
                         placeholder="Escribe tu Email">
                 </p>
-
                 <p>
                     <label for="telefone" class="colocar_telefono">Teléfono
                     </label>
                     <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
                 </p>
-
                 <p>
                     <label for="mensaje" class="colocar_mensaje">Mensaje
                         <span class="obligatorio">*</span>
@@ -94,29 +88,19 @@
                     <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
                         placeholder="Dejanos acá tu comentario..."></textarea>
                 </p>
-
                 <button type="submit" name="enviar_formulario" id="enviar">
                     <p>Enviar</p>
-
                 </button>
-
                 <p class="aviso">
                     <span class="obligatorio"> * </span>los campos son obligatorios.
                 </p>
-
             </form>
         </div>
     </div>
-    <section>
-        <div>
-            <div class="subir">
-                <a href="#" class="fa-solid fa-circle-chevron-up"></a>
-            </div>
-    </section>
 </main>
 
 <footer>
-    <h6>© Almacén Chesco, todos los derechos reservados. 2022.</h6>
+    <p>© Almacén Chesco, todos los derechos reservados. 2022.</p>
     <div class="redes">
         <a href=""></a> <i class="fa-brands fa-facebook"></i>
         <a href=""></a> <i class="fa-brands fa-instagram"></i>
