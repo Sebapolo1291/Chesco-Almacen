@@ -187,9 +187,7 @@ footer{
 
 
 .carousel-inner{
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+display: none;
 }
 
 @media screen and (min-width: 598px) {
@@ -266,7 +264,11 @@ footer{
         width: 70%;
     }
     .carousel-inner{
-        height: 50vh;
+        display: block;
+        margin-bottom: 150px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .dietetica-container p{
         margin: 2rem 10rem;
@@ -275,10 +277,9 @@ footer{
         text-align: center;
 }
     .dietetica-container{
-        margin-top: 5rem;
-        margin-bottom: 93px;
-        padding: 100px;
-        margin-top: 50px;
+        margin-top: 4rem;
+        margin-bottom: 100px;
+
     }
     .contacto-container-fluid{
         margin-bottom: 100px;
@@ -286,12 +287,14 @@ footer{
     }
     footer p {
         margin-top: 20px;
+        margin-left: 20px;
         text-align: left;
         font-size: 18px;
         font-family: 'DM Sans', sans-serif;
     }
     .redes {
         text-align: left;
+        margin-left: 20px;
     }
 
 }
