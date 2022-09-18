@@ -175,6 +175,7 @@ footer{
 
 .dietetica-container{
     text-align: center;
+    margin-top: 2rem;
     
 }
 
@@ -190,7 +191,11 @@ footer{
     display: none;
 }
 
-
+.about{
+    width: 90%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
 .nosotros {
     display: flex;
     flex-direction: column;
@@ -207,6 +212,18 @@ footer{
     font-size: 16px;
 }
 
+input{
+border-radius: 10px;
+border: solid 1px orange;
+width: 220px;
+padding: 10px;
+}
+
+.texto_mensaje{
+    border: solid 1px orange;
+    width: 220px;
+    height: 150px; 
+}
 
 
 @media screen and (min-width: 598px) {
@@ -232,6 +249,31 @@ footer{
         font-size: 3rem;
         margin: 1rem;
     }
+    input{
+        border-radius: 10px;
+        border: solid 1px orange;
+        width: 440px;
+        padding: 10px;
+        }
+    .texto_mensaje{
+        border: solid 1px orange;
+        width: 440px;
+        height: 150px; 
+    }
+    .formulario{
+        margin-left: 2rem;
+    }
+    #collapsibleNavbar{
+        flex-direction: row-reverse;
+    }
+    .nav-link{
+        color: black !important;
+        margin-right: 2rem;
+    }
+    .nav-link:hover{
+        color:#FF8500 !important
+    }
+
 } 
 
 
@@ -293,11 +335,10 @@ footer{
         margin-top: 78px;
         font-size: 24px;
         text-align: center;
-}
+    }
     .dietetica-container{
         margin-top: 4rem;
         margin-bottom: 100px;
-
     }
     .contacto-container-fluid{
         margin-bottom: 100px;
@@ -314,5 +355,15 @@ footer{
         text-align: left;
         margin-left: 20px;
     }
-
+    input{
+        border-radius: 10px;
+        border: solid 1px orange;
+        width: 420px;
+        padding: 10px;
+        margin-bottom: 18px;
+        margin-top: 10px;
+        }
+    .formulario{
+        margin-left: 20rem;
+    }
 }

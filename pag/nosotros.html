@@ -43,60 +43,54 @@
         </div>
     </nav>
 </header>
+
 <main>
     <!-- section inicia -->
     <section>
-        <div class="container-fluid nosotros">
+        <div class="dietetica-container">
             <h1>Nosotros</h1>
             <p>Chesco aún no cumplió su primer año desde que abrio sus puertas, el camino fue largo pero no imposible,
                 dia a dia con amor por nuestros vecinos nos esforzamos para mejorar y acercarle los mejores productos
-                naturales de elaboracion artesanal.
-            
-            </p>
+                naturales de elaboracion artesanal.</p>
+            <img src="../img/familia.png" class="about" alt="imagen de familia">    
         </div>
-    </section>
-
     <div class="contact_form">
-
         <div class="formulario">
-            <h2>Formulario de contacto</h2>
+            <h2>Estamos en contacto</h2>
             <p>¿Estas buscando un producto en particular y no lo encontrás? Escribinos y en breve nos pondremos en contacto con vos</p>
             <form action="submeter-formulario.php" method="post">
                 <p>
-                    <label for="nombre" class="colocar_nombre">Nombre
-                        <span class="obligatorio">*</span>
+                    <label for="nombre" class="colocar_nombre">
                     </label>
                     <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
-                        placeholder="Escribe tu nombre">
+                    placeholder=" Escribe tu nombre y apellido">
                 </p>
                 <p>
-                    <label for="email" class="colocar_email">Email
-                        <span class="obligatorio">*</span>
+                    <label for="email" class="colocar_email">
                     </label>
                     <input type="email" name="introducir_email" id="email" required="obligatorio"
                         placeholder="Escribe tu Email">
                 </p>
                 <p>
-                    <label for="telefone" class="colocar_telefono">Teléfono
+                    <label for="telefone" class="colocar_telefono">
                     </label>
                     <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
                 </p>
                 <p>
-                    <label for="mensaje" class="colocar_mensaje">Mensaje
-                        <span class="obligatorio">*</span>
+                    <label for="mensaje" class="colocar_mensaje">
                     </label>
                     <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
                         placeholder="Dejanos acá tu comentario..."></textarea>
                 </p>
-                <button type="submit" name="enviar_formulario" id="enviar">
+                <button type="submit" class="btn-info-vermas" name="enviar_formulario">
                     <p>Enviar</p>
                 </button>
                 <p class="aviso">
-                    <span class="obligatorio"> * </span>los campos son obligatorios.
                 </p>
             </form>
         </div>
     </div>
+</section>
 </main>
 
 <footer>
