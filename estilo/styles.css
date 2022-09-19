@@ -133,11 +133,12 @@ h3{
     background-color: rgba(255, 133, 0, 1);
     color:white;
     border: none;
-    padding: 10px;
     font-family: 'DM Sans', sans-serif;
     margin-bottom: 20px;
+    padding: 10px;
     width: 100%;
     text-decoration: none;
+    text-align: center;
 }
 
 .btn-info-vermas:hover{
@@ -242,7 +243,8 @@ padding: 10px;
         width: 50%;
     }
     .btn-info-vermas{
-        width: 25%;
+        width: 15%;
+        margin-top: 2rem;
     }
     .card-deck{
         margin: 1rem;
@@ -254,16 +256,12 @@ padding: 10px;
     input{
         border-radius: 10px;
         border: solid 1px orange;
-        width: 440px;
-        padding: 10px;
-        }
+        width: 100%;
+    }
     .texto_mensaje{
         border: solid 1px orange;
         width: 440px;
         height: 150px; 
-    }
-    .formulario{
-        margin-left: 2rem;
     }
     #collapsibleNavbar{
         flex-direction: row-reverse;
@@ -274,6 +272,27 @@ padding: 10px;
     }
     .nav-link:hover{
         color:#FF8500 !important
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .formulario h2{
+    font-size: 42px;
+    font-family: "Baloo 2", cursive;
+
+    }
+    .contacto{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .contacto div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
     }
 
 } 
@@ -315,6 +334,7 @@ padding: 10px;
     }
     .btn-info-vermas{
         width: 15%;
+        margin-top: 2rem;
     }
     .card-deck{
         flex-direction: row;
@@ -340,7 +360,6 @@ padding: 10px;
     }
     .dietetica-container{
         margin-top: 4rem;
-        margin-bottom: 100px;
     }
     .contacto-container-fluid{
         margin-bottom: 100px;
@@ -364,26 +383,5 @@ padding: 10px;
         margin-bottom: 18px;
         margin-top: 10px;
         }
-    .formulario{
-        display: flex;
-        flex-direction: column;
-     
-        text-align: center;
-       align-items: center;
-
-    }
-    .contacto{
-        display: flex;
-        flex-direction: row;
-        gap: 2rem
-        
-
-    }
-.contacto div {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    
-}
 }
 
