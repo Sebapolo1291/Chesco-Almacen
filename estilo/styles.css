@@ -1,387 +1,369 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=DM+Sans&display=swap");
-
-
-.about p span{
-    font-weight: bold;
+.about p span {
+  font-weight: bold;
 }
+
 /*MOBILE*/
 .img-hero {
-    background-image: url(../img/Group38.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 0;
-    width:100%;
-    height: 60vh;
+  background-image: url(../img/Group38.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;
+  width: 100%;
+  height: 60vh;
 }
 
-a.btn-info{
-    text-decoration: none;
-        text-align: center;
+a.btn-info {
+  text-decoration: none;
+  text-align: center;
 }
 
-a.btn-info:hover{
-    text-decoration: none;
-    color:black;
-    font-weight: bold;
-    text-align: center;
+a.btn-info:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
 
-
-h2{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
+
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(245, 166, 82);
-    font-size: 24px;
-    font-family: "Baloo 2", cursive;
+  color: rgb(255, 133, 0);
+  font-size: 24px;
+  font-family: "Baloo 2", cursive;
 }
 
 .navbar-toggler-icon {
-    border-radius: 5px;
-    border:2px solid rgba(255, 133, 0, 1);
-
+  border-radius: 5px;
+  border: 2px solid rgb(255, 133, 0);
 }
 
 .navbar-brand img {
-    width: 100%;
-    
+  width: 200px;
 }
 
-.navbar-toggler{
-    border: none;
+.navbar-toggler {
+  border: none;
 }
 
-.container-fluid{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 1rem;
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1rem;
 }
 
-.inicio-container-fluid{
-    background-color: rgba(255, 133, 0, 1);
-    display: flex;
-    flex-direction: column;
-    
+.inicio-container-fluid {
+  background-color: rgb(255, 133, 0);
+  display: flex;
+  flex-direction: column;
 }
 
-.inicio-container-fluid h3{
-    padding-top: 20px;
+.inicio-container-fluid h3 {
+  padding-top: 20px;
 }
 
-.inicio-container-fluid p{
-    font-family: 'DM Sans', sans-serif;
-    text-align: center;
-    color: white;
+.inicio-container-fluid p {
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+  color: white;
 }
 
 /*ESTILOS DEL MAPA*/
-.map-container{
-    width: 100%;
+.map-container {
+  width: 100%;
 }
 
-.map-container iframe{
-    width:100%;
-    height:100%;  
-    border:none;
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
-
-
-h1{
-    font-family: "Baloo 2", cursive;
-    font-size: 48px;
-    font-weight: bold;
-    
+h1 {
+  font-family: "Baloo 2", cursive;
+  font-size: 48px;
+  font-weight: bold;
 }
 
-h3{
-    font-family: "Baloo 2", cursive;
-    font-size: 28px;
-    text-align: center;
-    color: white;
+h3 {
+  font-family: "Baloo 2", cursive;
+  font-size: 28px;
+  text-align: center;
+  color: white;
 }
 
-
-.btn-info{
-    border-radius: 10px;
-    background-color: white;
-    color:rgba(255, 133, 0, 1);
-    border: none;
-    padding: 10px;
-    font-family: 'DM Sans', sans-serif;
-    margin-bottom: 20px;
+.btn-info {
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(255, 133, 0);
+  border: none;
+  padding: 10px;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 20px;
 }
 
-.card-deck{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.card-deck {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.card1{
-    border-radius: 10px;
-    margin: 1rem;
+.card1 {
+  border-radius: 10px;
+  margin: 1rem;
 }
 
-.btn-info-vermas{
-    border-radius: 10px;
-    background-color: rgba(255, 133, 0, 1);
-    color:white;
-    border: none;
-    font-family: 'DM Sans', sans-serif;
-    margin-bottom: 20px;
-    padding: 10px;
-    width: 100%;
-    text-decoration: none;
-    text-align: center;
+.btn-info-vermas {
+  border-radius: 10px;
+  background-color: rgb(255, 133, 0);
+  color: white;
+  border: none;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
 }
 
-.btn-info-vermas:hover{
-    text-decoration: none;
-    color:black;
-    font-weight: bold;
-
+.btn-info-vermas:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
-.contacto-container-fluid{
-    flex-direction: column;
-    text-align: center;
-    margin: 1rem;
-    justify-content: center;
+.contacto-container-fluid {
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+  justify-content: center;
 }
 
-.display-4{
-    color: black;
-    font-family: "Baloo 2", cursive;
-    font-size: 28px;
+.display-4 {
+  color: black;
+  font-family: "Baloo 2", cursive;
+  font-size: 28px;
 }
 
-footer{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    text-align: center;
-    color: white;
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  text-align: center;
+  color: white;
 }
 
 .redes i:hover {
-    color: rgba(255, 133, 0, 1);
+  color: rgb(255, 133, 0);
 }
 
-
-.dietetica-container{
-    text-align: center;
-    margin-top: 2rem;
-    
+.dietetica-container {
+  text-align: center;
+  margin-top: 2rem;
 }
 
-.dietetica-container p{
-    border-top: 1px solid rgba(121, 121, 121, 1);
-    margin: 1rem;
-    padding-top: 1rem;
+.dietetica-container p {
+  border-top: 1px solid rgb(121, 121, 121);
+  margin: 1rem;
+  padding-top: 1rem;
 }
 
-.carousel-inner{
-    display: none;
-}
-.carousel-indicators{
-    display: none;
+.carousel-inner {
+  display: none;
 }
 
-.about{
-    width: 90%;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+.carousel-indicators {
+  display: none;
 }
+
+.about {
+  width: 90%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 .nosotros {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
-.nosotros h1{
-    font-family: "Baloo 2", cursive;
-    font-size: 42px;
+.nosotros h1 {
+  font-family: "Baloo 2", cursive;
+  font-size: 42px;
 }
 
-.nosotros p{
-    font-family: "Baloo 2", cursive;
-    font-size: 16px;
+.nosotros p {
+  font-family: "Baloo 2", cursive;
+  font-size: 16px;
 }
 
-input{
-border-radius: 10px;
-border: solid 1px orange;
-width: 220px;
-padding: 10px;
+input {
+  border-radius: 10px;
+  border: solid 1px rgb(255, 133, 0);
+  width: 220px;
+  padding: 10px;
 }
 
-.texto_mensaje{
-    border: solid 1px orange;
-    width: 220px;
-    height: 150px; 
+.texto_mensaje {
+  border: solid 1px rgb(255, 133, 0);
+  width: 220px;
+  height: 150px;
 }
-
 
 @media screen and (min-width: 598px) {
-    .section1 {
-        display: flex;
-        flex-direction: row;
-    }
-} 
-
-
+  .section1 {
+    display: flex;
+    flex-direction: row;
+  }
+}
 /*TABLET*/
 @media screen and (min-width: 768px) {
-    .card-img-top{
-        width: 50%;
-    }
-    .btn-info-vermas{
-        width: 15%;
-        margin-top: 2rem;
-    }
-    .card-deck{
-        margin: 1rem;
-    }
-    .redes i{
-        font-size: 3rem;
-        margin: 1rem;
-    }
-    input{
-        border-radius: 10px;
-        border: solid 1px orange;
-        width: 100%;
-    }
-    .texto_mensaje{
-        border: solid 1px orange;
-        width: 440px;
-        height: 150px; 
-    }
-    #collapsibleNavbar{
-        flex-direction: row-reverse;
-    }
-    .nav-link{
-        color: black !important;
-        margin-right: 2rem;
-    }
-    .nav-link:hover{
-        color:#FF8500 !important
-    }
-    .formulario{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-    .formulario h2{
+  .card-img-top {
+    width: 50%;
+  }
+  .btn-info-vermas {
+    width: 15%;
+    margin-top: 2rem;
+  }
+  .card-deck {
+    margin: 1rem;
+  }
+  .redes i {
+    font-size: 3rem;
+    margin: 1rem;
+  }
+  input {
+    border-radius: 10px;
+    border: solid 1px rgb(255, 133, 0);
+    width: 100%;
+  }
+  .texto_mensaje {
+    border: solid 1px rgb(255, 133, 0);
+    width: 440px;
+    height: 150px;
+  }
+  #collapsibleNavbar {
+    flex-direction: row-reverse;
+  }
+  .nav-link {
+    color: black !important;
+    margin-right: 2rem;
+  }
+  .nav-link:hover {
+    color: rgb(255, 133, 0) !important;
+  }
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .formulario h2 {
     font-size: 42px;
     font-family: "Baloo 2", cursive;
-
-    }
-    .contacto{
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-    }
-    .contacto div {
+  }
+  .contacto {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .contacto div {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
-    }
-
-} 
-
-
+  }
+}
 /*DESKTOP*/
 @media screen and (min-width: 1200px) {
-    .img-hero{
-        height: 80vh;
-    }
-    .about{
-        width: 50%;
-        text-align: justify;
-        margin: 6rem 0 6rem 6rem;
-        font-size: 16px;
-    }
-    .section1 {
-        height: 515px;
-    }
-    .inicio-container-fluid{
-        padding: 8rem;
-
-    }
-    .inicio-container-fluid h3{
-        text-align: left;
-        margin-left: 2rem;
-        font-size: 48px;
-    }
-    .inicio-container-fluid p{
-        text-align: left;
-        margin-left: 2rem;
-        font-size: 18px;
-
-    }
-    .btn-info{
-        width: 198px;
-        margin-left: 2rem;
-        margin-top: 2rem;
-    }
-    .btn-info-vermas{
-        width: 15%;
-        margin-top: 2rem;
-    }
-    .card-deck{
-        flex-direction: row;
-        flex-flow:nowrap;
-        margin-bottom: 100px;
-    }
-
-    .card-img-top {
-        width: 70%;
-    }
-    .carousel-inner{
-        display: block;
-        margin-bottom: 150px;
-        width: 100%;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .dietetica-container p{
-        margin: 2rem 10rem;
-        margin-top: 78px;
-        font-size: 24px;
-        text-align: center;
-    }
-    .dietetica-container{
-        margin-top: 4rem;
-    }
-    .contacto-container-fluid{
-        margin-bottom: 100px;
-        margin-top: 100px;
-    }
-    footer p {
-        margin-top: 20px;
-        margin-left: 20px;
-        text-align: left;
-        font-size: 18px;
-        font-family: 'DM Sans', sans-serif;
-    }
-    .redes {
-        text-align: left;
-        margin-left: 20px;
-    }
-    input{
-        border-radius: 10px;
-        border: solid 1px orange;
-        padding: 10px;
-        margin-bottom: 18px;
-        margin-top: 10px;
-        }
+  .img-hero {
+    height: 80vh;
+  }
+  .about {
+    width: 50%;
+    text-align: justify;
+    margin: 6rem 0 6rem 6rem;
+    font-size: 16px;
+  }
+  .section1 {
+    height: 515px;
+  }
+  .inicio-container-fluid {
+    padding: 8rem;
+  }
+  .inicio-container-fluid h3 {
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 48px;
+  }
+  .inicio-container-fluid p {
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 18px;
+  }
+  .btn-info {
+    width: 198px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .btn-info-vermas {
+    width: 15%;
+    margin-top: 2rem;
+  }
+  .card-deck {
+    flex-direction: row;
+    flex-flow: nowrap;
+    margin-bottom: 100px;
+  }
+  .card-img-top {
+    width: 70%;
+  }
+  .carousel-inner {
+    display: block;
+    margin-bottom: 150px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .dietetica-container p {
+    margin: 2rem 10rem;
+    margin-top: 78px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .dietetica-container {
+    margin-top: 4rem;
+  }
+  .contacto-container-fluid {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  footer p {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+  }
+  .redes {
+    text-align: left;
+    margin-left: 20px;
+  }
+  input {
+    border-radius: 10px;
+    border: solid 1px rgb(255, 133, 0);
+    padding: 10px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+  }
 }
 
+/*# sourceMappingURL=styles.css.map */
